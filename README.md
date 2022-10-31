@@ -1,20 +1,15 @@
 # Bootcamp-project
 Bootcamp Q4 22
-- Intro is basic game to save the man 
-- Guessing game for two or more players
-_ One player thinks of a word or sentence
-_ the other guess the word or sentence  seen in the screen.
+## Intro ##
+We created a coding version of the classic game hangman, played in schools on a (green)whiteboard.
 
-- start from asking the player if s/he wants to play the game 
-- if the player press 'y' the games start
-- once the player started pressing yes there is display a man and the number letters have to guess and how guess changes he have it is displace it the code breaks  
-- once the games started the there will be six number of guess and zero wrong guess
-- using the random.choice method the words will be displayed randomly.
+## Basic rules  ##  
+- guessed the word according to the _ displayed,
+- the player wins if guesses the word or sentence,
+- the player loses if s/he tries more than the max. amount of guesses (6).
 
-- Rules for the game:
-- Are very simple 
-- if the player has to choose the right letters to save the man and from hangning.
-- if the player fails to choose the man will be hanged
-- player has given six life line . 
+The game starst by asking the player if s/he wants to play the game, 
+a random word is picked from our dic of words and a number of _ is shown accordingly,
+a post will hang the man if 6 guesses are wrong.
 
-
+Have fun and save the man! 
